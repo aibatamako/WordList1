@@ -10,7 +10,7 @@ import UIKit
 class QuestionViewController: UIViewController {
     
     @IBOutlet var answerLabel: UILabel!
-      @IBOutlet var questionlabel: UILabel!
+      @IBOutlet var questionLabel: UILabel!
       @IBOutlet var nextButton: UIButton!
       
       var isAnswered: Bool = false
@@ -29,7 +29,7 @@ class QuestionViewController: UIViewController {
            wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
            
            wordArray.shuffle()
-           questionlabel.text = wordArray[nowNumber]["english"]
+           questionLabel.text = wordArray[nowNumber]["english"]
        }
 
     @IBAction func nextButtonTapped(){
@@ -39,7 +39,7 @@ class QuestionViewController: UIViewController {
                 
                 if nowNumber < wordArray.count{
                     
-                    questionlabel.text = wordArray[nowNumber]["english"]
+                    questionLabel.text = wordArray[nowNumber]["english"]
                     
                     isAnswered = false
                     nextButton.setTitle("答えを表示",for: .normal)
