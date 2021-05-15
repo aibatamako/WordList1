@@ -15,6 +15,14 @@
 		2B5827BF264F7E1E00087498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5827BD264F7E1E00087498 /* LaunchScreen.storyboard */; };
 		2B5827CA264F7E1E00087498 /* WordList1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827C9264F7E1E00087498 /* WordList1Tests.swift */; };
 		2B5827D5264F7E1E00087498 /* WordList1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827D4264F7E1E00087498 /* WordList1UITests.swift */; };
+		2B5827E6264F7E5D00087498 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5827E3264F7E5D00087498 /* word_blank.png */; };
+		2B5827E7264F7E5D00087498 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5827E4264F7E5D00087498 /* fin.png */; };
+		2B5827E8264F7E5D00087498 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5827E5264F7E5D00087498 /* title_logo.png */; };
+		2B5827EA264F82B800087498 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827E9264F82B800087498 /* QuestionViewController.swift */; };
+		2B5827EC264F82E800087498 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827EB264F82E800087498 /* FinishViewController.swift */; };
+		2B5827EE264F831D00087498 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827ED264F831D00087498 /* ListTableViewController.swift */; };
+		2B5827F0264F834400087498 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827EF264F834400087498 /* AddViewController.swift */; };
+		2B5827F2264F938A00087498 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5827F1264F938A00087498 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		2B5827D0264F7E1E00087498 /* WordList1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordList1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5827D4264F7E1E00087498 /* WordList1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList1UITests.swift; sourceTree = "<group>"; };
 		2B5827D6264F7E1E00087498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5827E3264F7E5D00087498 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		2B5827E4264F7E5D00087498 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		2B5827E5264F7E5D00087498 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		2B5827E9264F82B800087498 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2B5827EB264F82E800087498 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		2B5827ED264F831D00087498 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		2B5827EF264F834400087498 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		2B5827F1264F938A00087498 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +119,15 @@
 				2B5827B4264F7E1900087498 /* SceneDelegate.swift */,
 				2B5827B6264F7E1900087498 /* ViewController.swift */,
 				2B5827B8264F7E1900087498 /* Main.storyboard */,
+				2B5827E2264F7E5D00087498 /* WordList素材 */,
 				2B5827BB264F7E1E00087498 /* Assets.xcassets */,
 				2B5827BD264F7E1E00087498 /* LaunchScreen.storyboard */,
 				2B5827C0264F7E1E00087498 /* Info.plist */,
+				2B5827E9264F82B800087498 /* QuestionViewController.swift */,
+				2B5827EB264F82E800087498 /* FinishViewController.swift */,
+				2B5827ED264F831D00087498 /* ListTableViewController.swift */,
+				2B5827EF264F834400087498 /* AddViewController.swift */,
+				2B5827F1264F938A00087498 /* ListTableViewCell.swift */,
 			);
 			path = WordList1;
 			sourceTree = "<group>";
@@ -126,6 +148,16 @@
 				2B5827D6264F7E1E00087498 /* Info.plist */,
 			);
 			path = WordList1UITests;
+			sourceTree = "<group>";
+		};
+		2B5827E2264F7E5D00087498 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				2B5827E3264F7E5D00087498 /* word_blank.png */,
+				2B5827E4264F7E5D00087498 /* fin.png */,
+				2B5827E5264F7E5D00087498 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5827E6264F7E5D00087498 /* word_blank.png in Resources */,
+				2B5827E8264F7E5D00087498 /* title_logo.png in Resources */,
 				2B5827BF264F7E1E00087498 /* LaunchScreen.storyboard in Resources */,
 				2B5827BC264F7E1E00087498 /* Assets.xcassets in Resources */,
+				2B5827E7264F7E5D00087498 /* fin.png in Resources */,
 				2B5827BA264F7E1900087498 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5827EC264F82E800087498 /* FinishViewController.swift in Sources */,
+				2B5827F2264F938A00087498 /* ListTableViewCell.swift in Sources */,
 				2B5827B7264F7E1900087498 /* ViewController.swift in Sources */,
+				2B5827F0264F834400087498 /* AddViewController.swift in Sources */,
 				2B5827B3264F7E1900087498 /* AppDelegate.swift in Sources */,
+				2B5827EA264F82B800087498 /* QuestionViewController.swift in Sources */,
+				2B5827EE264F831D00087498 /* ListTableViewController.swift in Sources */,
 				2B5827B5264F7E1900087498 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
